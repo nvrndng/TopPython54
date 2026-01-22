@@ -8,4 +8,4 @@ git config --global user.name - задаю имя
 git config --global user.email - задаю емейл 
 git log --oneline - показывает все изменения
 git remote add origin https://github.com/nvrndng/TopPython54.git - подключаю папку к репозиторию на гитхабе
-git push -u origin main - тоже подключаю папку к репозиторию
+git push -u origin main - тоже подключаю папку к репозиторию и добавляю в репозиторий новые изменения
