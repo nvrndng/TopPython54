@@ -38,6 +38,7 @@ print(" ")
 print("-"*30)
 print(" ")
 
+print("Обход Work сверху вниз:")
 for root, dirs, files in os.walk("Work"):
     print(root)
     print("\t", dirs)
