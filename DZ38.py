@@ -11,7 +11,7 @@ posts_count = {}
 for post in posts:
     try:
         posts_count[post["userId"]] += 1
-    except:
+    except KeyError:
         posts_count[post["userId"]] = 1
 
 print("Количество постов пользователей: ")
